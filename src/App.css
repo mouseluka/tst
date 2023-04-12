@@ -1,0 +1,19 @@
+.app {
+  text-align: center;
+}
+
+.selectedList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+
+li {
+  list-style-type: none;
+  margin: 0 10px;
+}
